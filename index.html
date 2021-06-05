@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <title>Pasha</title>
+</head>
+
+<body>
+  <!-- first__section -->
+  <section class="first__section">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="header_inner">
+        <nav class="nav" id="nav">
+
+          <div class="nav__left">
+            <img class="nav__logo" src="img/logo.png" alt="">
+            <a class="nav__link" href="#catalog" data-scroll="#features">Menu</a>
+            <a class="nav__link" href="#about" data-scroll="#">About</a>
+            <a class="nav__link" href="#bestseller" data-scroll="#">Gallery</a>
+            <a class="nav__link" href="#footer" data-scroll="#">Contact</a>
+          </div>
+
+          <div class="nav__right">
+            <i class="fas fa-phone-alt"></i>
+            <a href="#" class="nav__link nav__link--call" href="#" data-scroll="#download">8(707 )-788-99-77</a>
+            <button class="btn" data-scroll="#">Order Online</button>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+    <div class="intro__info">
+      <p class="intro__title">WE TAKE</p>
+      <p class="intro__text">PRIDE IN </p>
+      <p class="intro__text">OUR FOOD</p>
+      <p class="intro__desc">Made of fresh & premium Ingerdients</p>
+      <button class="btn" href="#" data-scroll="#">OUR MENU</button>
+    </div>
+
+    <div class="social__right">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#source/"><i class="fab fa-facebook"></i></a>
+    </div>
+  </section>
+  <!--End__first__section -->
+
+  <!-- Main -->
+  <main class="main">
+    <!-- Catalog -->
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <!-- Delicacies -->
+        <div class="delicacies">
+          <div class="title">Catalog Section</div>
+          <div class="title title--green">Delicacies </div>
+          <div class="delicacies__row">
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/01.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Breakfast</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/02.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Salats</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/03.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Drinks</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/04.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Lunch</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/05.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Barbeque</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/06.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Pizza/Pide</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/07.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Doners</a></div>
+            </div>
+            <div class="delicacies__item">
+              <div class="delicacies__photo">
+                <a href="#"><img class="delicacies__image" src="img/delicacies/08.png" alt=""></a>
+              </div>
+              <div class="delicacies__name"><a href="#">Desserts</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bestseller -->
+        <div class="title title--bslr" id="bestseller">Bestseller</div>
+        <div class="bestseller__row" id="bestsellerSlider">
+          <div class="bestseller__item">
+            <div class="bestseller__photo">
+              <img class="bestseller__image" src="img/bestsellers/01.jpg" alt="">
+            </div>
+            <div class="bestseller__info">
+              <h3 class="rating__title">Doner</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="bestseller__price">
+              <span class="price"><small>TГ </small>890</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="bestseller__item">
+            <div class="bestseller__photo">
+              <img class="bestseller__image" src="img/bestsellers/02.jpg" alt="">
+            </div>
+            <div class="bestseller__info">
+              <h3 class="rating__title">Cheesburger</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star-half"></i></li>
+              </ul>
+            </div>
+            <div class="bestseller__price">
+              <span class="price"><small>TГ </small>790</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="bestseller__item">
+            <div class="bestseller__photo">
+              <img class="bestseller__image" src="img/bestsellers/03.jpg" alt="">
+            </div>
+            <div class="bestseller__info">
+              <h3 class="rating__title">Shawarma&Fries</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="bestseller__price">
+              <span class="price"><small>TГ </small>1090</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="bestseller__item">
+            <div class="bestseller__photo">
+              <img class="bestseller__image" src="img/bestsellers/04.jpg" alt="">
+            </div>
+            <div class="bestseller__info">
+              <h3 class="rating__title">Blackburger</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star-half"></i></li>
+              </ul>
+            </div>
+            <div class="bestseller__price">
+              <span class="price"><small>TГ </small> 990</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="bestseller__item">
+            <div class="bestseller__photo">
+              <img class="bestseller__image" src="img/bestsellers/01.jpg" alt="">
+            </div>
+            <div class="bestseller__info">
+              <h3 class="rating__title">Doner</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="bestseller__price">
+              <span class="price"><small>TГ </small>890</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- New Item -->
+        <div class="title">New <span class="title_green">items</span></div>
+        <div class="new_item__row" id="itemSlider">
+          <div class="new_item__item">
+            <div class="new_item__photo">
+              <img class="new_item__image" src="img/newItems/01.jpg" alt="">
+            </div>
+            <div class="new_item__info">
+              <h3 class="rating__title">Beef Steak</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="new_item__price">
+              <span class="price"><small>TГ </small>2500</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="new_item__item">
+            <div class="new_item__photo">
+              <img class="new_item__image" src="img/newItems/02.jpg" alt="">
+            </div>
+            <div class="new_item__info">
+              <h3 class="rating__title">Fried Chicken</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star-half"></i></li>
+              </ul>
+            </div>
+            <div class="new_item__price">
+              <span class="price"><small>TГ </small>990</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="new_item__item">
+            <div class="new_item__photo">
+              <img class="new_item__image" src="img/newItems/03.jpg" alt="">
+            </div>
+            <div class="new_item__info">
+              <h3 class="rating__title">Ice Cream </h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="new_item__price">
+              <span class="price"><small>TГ </small>490</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="new_item__item">
+            <div class="new_item__photo">
+              <img class="new_item__image" src="img/newItems/04.jpg" alt="">
+            </div>
+            <div class="new_item__info">
+              <h3 class="rating__title">Coffee</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star-half"></i></li>
+              </ul>
+            </div>
+            <div class="new_item__price">
+              <span class="price"><small>TГ </small> 390</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+
+          <div class="new_item__item">
+            <div class="new_item__photo">
+              <img class="new_item__image" src="img/newItems/01.jpg" alt="">
+            </div>
+            <div class="new_item__info">
+              <h3 class="rating__title">Beef Steak</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="new_item__price">
+              <span class="price"><small>TГ </small>2500</span>
+              <button class="add-to-cart"><i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id=about>
+
+      <div class="about__photo" id="aboutSlider">
+        <div class="about_item">
+          <img class="about__image" src="../img/about.png" alt="">
+        </div>
+        <div class="about_item">
+          <img class="about__image" src="../img/about.png" alt="">
+        </div>
+        <div class="about_item">
+          <img class="about__image" src="../img/about.png" alt="">
+        </div>
+      </div>
+      <div class="about__text">
+        <div class="about__title title"><span class="title_orange">About </span>Us</div>
+        <div class="about__inner_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. At nullam et neque, viverra ornare. Enim, sed urna,
+          tincidunt augue. Erat massa suspendisse quis viverra nunc quam. Turpis senectus diam tristique nibh justo hac
+          diam. Dapibus platea amet, nunc pharetra. Integer nec sapien adipiscing risus ante lectus.
+        </div>
+        <button class="btn btn--about" data-scroll="#">Read comlpetely</button>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section>
+      <div class="container">
+        <div class="title"><span class="title_green">Review</span> of our clients</div>
+        <div class="review" id="reviewSlider">
+          <div class="review__item">
+            <img class="review__image" src="img/review.jpg" alt="">
+            <div class="review__text">
+              <h3 class="review__title">Sanzhar</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc, condimentum id luctus suspendisse
+                justo id. Diam non vitae id neque tempor ut risus aliquam, euismod. Ullamcorper suspendisse in ut eget.
+              </p>
+            </div>
+          </div>
+          <div class="review__item">
+            <div class="review__photo">
+              <img class="review__image" src="img/review.jpg" alt="">
+            </div>
+            <div class="review__text">
+              <h3 class="review__title">Sanzhar</h3>
+              <ul class="rating">
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+                <li class="rating__star"><i class="fas fa-star"></i></li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc, condimentum id luctus suspendisse
+                justo id. Diam non vitae id neque tempor ut risus aliquam, euismod. Ullamcorper suspendisse in ut eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer-->
+  <footer class="footer" id="footer">
+    <div class="footer__btn_row">
+      <button class="btn btn--footer btn--orange" data-scroll="#"><i class="fab fa-apple"></i>App Store</button>
+      <button class="btn btn--footer btn--blue" data-scroll="#"><i class="fab fa-google-play"></i>Google
+        Play</button>
+    </div>
+    <div class="footer__inner">
+      <div class="footer__title">Contact Us</div>
+      <p>Survived not only five centuries, but also the leap into popularised in the 1960s with
+        the release of Letraset sheets containing of Lorem Ipsum.
+      </p>
+      <div class="footer__links">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-vk"></i>
+      </div>
+    </div>
+    <div class="footer__bottom_links">
+      <div class="fbl__item"><a href="#"><i class="fas fa-map-marker-alt"></i>st.Bauyrzhan Momyshuly 2G</a></div>
+      <div class="fbl__item"><a href="#"><i class="fas fa-mobile-alt"></i>+7(707)788-99-77</a></div>
+      <div class="fbl__item"><a href="#"><i class="fas fa-envelope"></i>pasha.taraz@.com</a></div>
+    </div>
+  </footer>
+
+
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

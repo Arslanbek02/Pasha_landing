@@ -1,0 +1,38 @@
+%slick_arrow  {
+  position: absolute;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    color: #000;
+    text-align: center;
+    
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    
+    &:hover {
+      color: #fff;
+      background: $green;
+    }
+    transition: background .3 s linear;
+
+    .fas  {
+      position: absolute;
+      top: 30%;
+      right: 35%;
+    }
+}
+
+%display__flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%bg__props{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
